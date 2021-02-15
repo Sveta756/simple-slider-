@@ -9,6 +9,8 @@
 }
 .slide {
     height: 500px;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 .img {
     width: 100%;
@@ -49,4 +51,21 @@
 
 .next {
     right: -40px;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
